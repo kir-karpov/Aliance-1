@@ -2,8 +2,8 @@
   box-sizing: border-box;
 }
 @font-face {
-  font-family: "Bebas Neue Regular";
-  src: url("../fonts/BebasNeueRegular.woff") format("woff");
+  font-family: "BebasNeueBook";
+  src: url("../fonts/BebasNeueBook.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
@@ -44,8 +44,10 @@ body {
   background-image: url(../img/header-bg.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center bottom -46px;
   position: relative;
+  margin-left: 4px;
+  margin-top: 0px;
 }
 .header-image::before {
   content: "";
@@ -106,6 +108,7 @@ body {
   border: none;
   display: inline-block;
   cursor: pointer;
+  margin-left: 8px;
 }
 .button {
   font-weight: 600;
@@ -113,7 +116,7 @@ body {
   line-height: 160%;
   color: #ffffff;
   background: #3a71d1;
-  padding: 25px 60px;
+  padding: 25px 45px;
   border: none;
   display: inline-block;
   cursor: pointer;
@@ -134,10 +137,14 @@ body {
 }
 .header-title {
   max-width: 1080px;
-  font-family: Bebas Neue Regular;
+  font-family: BebasNeueBook;
   font-size: 80px;
   line-height: 120%;
-  margin: 30px 0px;
+  margin: 21px 1px;
+  word-spacing: -5.2px;
+  letter-spacing: 1px;
+  margin-left: 10px;
+  margin-top: 25px;
 }
 .header-text {
   max-width: 720px;
@@ -146,6 +153,8 @@ body {
   font-size: 16px;
   line-height: 160%;
   margin-bottom: 50px;
+  margin-left: 10px;
+  margin-top: 37px;
 }
 .header-features {
   display: flex;
@@ -171,6 +180,7 @@ body {
   font-size: 16px;
   line-height: 160%;
   margin: none;
+  margin-bottom: 0px;
 }
 .section {
   margin-top: 150px;
@@ -178,11 +188,13 @@ body {
 }
 
 .section-title {
-  font-family: Bebas Neue Regular;
+  font-family: BebasNeueBook;
   font-weight: 400;
   font-size: 60px;
   line-height: 120%;
   color: #292d33;
+  margin-top: 24px;
+  margin-left: 12px;
 }
 .steps {
   display: flex;
@@ -194,7 +206,7 @@ body {
   max-width: 330px;
 }
 .steps-num {
-  font-family: Bebas Neue Regular;
+  font-family: BebasNeueBook;
   font-size: 48px;
   line-height: 120%;
   color: #5c8ee6;
@@ -213,8 +225,8 @@ body {
   font-size: 28px;
   line-height: 160%;
   color: #292d33;
-  margin-top: 30px;
-  margin-bottom: 10px;
+  margin-top: 36px;
+  margin-bottom: 17px;
 }
 .steps-text {
   font-weight: 400;
@@ -223,6 +235,7 @@ body {
   margin-top: 10px;
   margin-bottom: 20px;
   color: #828a99;
+  font-family: "Noto Sans";
 }
 .steps-link {
   display: flex;
@@ -231,14 +244,20 @@ body {
   font-weight: 600;
   font-size: 16px;
   line-height: 160%;
-  font-family: Bebas Neue Regular;
+  font-family: Noto Sans;
   color: #5c8ee6;
+  margin-top: 0px;
+  position: revert;
+  margin-left: 12px;
+  width: 200px;
+  height: 17px;
 }
+
 .steps-link::before {
   background: #5c8ee6;
   content: "";
   height: 1px;
   width: 40px;
-  font-family: Bebas Neue Regular;
+  font-family: BebasNeueBook;
   margin-right: 20px;
 }
