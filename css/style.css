@@ -12,7 +12,7 @@ html {
   font-style: normal;
 }
 body {
-  margin: 0;
+  margin: 0px;
   font-family: "Noto Sans", sans-serif;
 }
 .logo-svg {
@@ -54,7 +54,6 @@ body {
   background-repeat: no-repeat;
   background-position: center bottom -2.875rem;
   position: relative;
-  margin-left: 0.25rem;
   margin-top: 0px;
 }
 .header-image::before {
@@ -271,7 +270,7 @@ body {
   margin-right: 1.25rem;
 }
 
-@media (max-width: 75rem);
+@media (max-width: 87.5rem);
  {
   html {
     font-size: 14px;
