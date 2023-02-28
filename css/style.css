@@ -324,7 +324,7 @@ body {
     padding-right: 2rem;
   }
 }
-@media (max-width: 992px) {
+@media (max-width: 380px) {
   html {
     font-style: 12px;
   }
