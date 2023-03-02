@@ -175,18 +175,15 @@ body {
 }
 .header-features {
   display: flex;
-  max-height: 10.5rem;
+  min-height: 10.5rem;
   padding: 0;
-  align-items: flex-start;
   list-style: none;
   color: #ffffff;
-  flex-direction: row;
-  align-items: flex-start;
   position: relative;
   margin-top: 6.25rem;
 }
 .header-features-item {
-  padding: 1.875rem 3.125rem;
+  padding: 30px 50px;
   border: 0.0625rem solid rgba(235, 235, 240, 0.2);
 }
 .header-features-item:not(:last-child) {
