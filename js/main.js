@@ -40,7 +40,7 @@ mMenuToggle.addEventListener("click", (event) => {
 const swiper = new Swiper(".swiper", {
   speed: 400,
   autoHeight: true, // авто выравнивание
-  loop: true, // чтобы были бесконечные
+
   slidesPerView: 1, // кол во слайдов
   navigation: {
     nextEl: ".slider-button-next",
