@@ -10,6 +10,8 @@
       href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;600;700&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+
     <link rel="stylesheet" href="css/style.css" />
     <title>Aliance Production</title>
   </head>
@@ -149,7 +151,59 @@
           </p>
           <div class="button2">Подробнее о компании</div>
         </div>
+
         <!-- header content -->
+       <!-- Slider main container -->
+<div class="swiper">
+  <ul class="swiper-wrapper header-features ">
+    <li class="swiper-slide header-features-item"><svg width="36" height="36">
+      <use href="img/sprite.svg#time"></use>
+    </svg>
+    <p 
+      class="header-features-text"
+    >
+      Непрерывная работа c 2017 года
+    </p></li>
+    <li class="swiper-slide header-features-item"><svg width="36" height="36">
+      <use href="img/sprite.svg#cert"></use>
+    </svg>
+    <p
+      class="header-features-text"
+    >
+      Вся продукция сертифицирована
+    </p></li>
+    <li class="swiper-slide header-features-item"><svg width="36" height="36">
+      <use href="img/sprite.svg#chel"></use>
+    </svg>
+    <p class="header-features-text" >
+      Контроль качества на всех этапах
+    </p></li>
+    <li class="swiper-slide header-features-item"><svg width="36" height="36">
+      <use href="img/sprite.svg#car"></use>
+    </svg>
+    <p
+      class="header-features-text"
+      
+    >
+      Возможны поставки по всей России
+    </p></li>
+    <li class="swiper-slide header-features-item"><svg  width="36" height="36">
+      <use href="img/sprite.svg#speed"></use>
+    </svg>
+    <p class="header-features-text">Оперативное производство</p>
+  </li>
+  </ul>
+  
+  <!-- If we need navigation buttons -->
+<div class="slider-buttons">
+  <div class="slider-button-prev"></div>
+  <div class="slider-button-next"></div>
+</div>
+
+
+</div>
+
+      
         <ul class="header-features">
           <li class="header-features-item">
             <svg width="36" height="36">
@@ -257,6 +311,7 @@
         </ol>
       </div>
     </section>
+    <script src = "js/swiper-bundle.min.js"></script>
     <script src="js/main.js"></script>
   </body>
 </html>
