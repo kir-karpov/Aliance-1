@@ -339,6 +339,7 @@ body {
     margin-right: 2rem;
   }
 }
+
 @media (max-width: 1200px) {
   .container {
     max-width: 70rem;
@@ -352,6 +353,29 @@ body {
 
   .navbar {
     height: 5rem;
+  }
+  .navbar-button {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  .slider-buttons {
+    display: flex;
+  }
+}
+@media (max-width: 985px) {
+  .container {
+    max-width: 60rem;
+  }
+  .steps-buttons {
+    display: flex;
+  }
+  .header-phone {
+    display: none;
+  }
+  .navbar-button {
+  }
+  .navbar {
+    height: 60px;
   }
   .navbar-button {
     padding-left: 2rem;
@@ -499,6 +523,7 @@ body {
   .container {
     max-width: 95%;
   }
+
   .header-title {
     font-size: 4rem;
   }
