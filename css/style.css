@@ -264,6 +264,7 @@ body {
   line-height: 160%;
   margin-top: 0.625rem;
   margin-bottom: 1.25rem;
+  width: 18.75rem;
   color: #828a99;
   font-family: "Noto Sans";
 }
@@ -281,6 +282,7 @@ body {
   margin-left: 0.75rem;
   width: 12.5rem;
   height: 1.0625rem;
+  margin-bottom: 20px;
 }
 
 .steps-link::before {
@@ -291,7 +293,22 @@ body {
   font-family: BebasNeueBook;
   margin-right: 1.25rem;
 }
-
+.steps-buttons {
+  height: 40px;
+  display: flex;
+  justify-content: flex-end;
+  display: none;
+}
+.steps-button-prev,
+.steps-button-next {
+  background: #5c8ee6;
+  height: 100%;
+  width: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
 @media (max-width: 1500px) {
   html {
     font-size: 0.875rem;
@@ -326,9 +343,13 @@ body {
   .container {
     max-width: 70rem;
   }
+  .steps-buttons {
+    display: flex;
+  }
   .header-phone {
     display: none;
   }
+
   .navbar {
     height: 5rem;
   }
@@ -476,7 +497,7 @@ body {
 }
 @media (max-width: 1000px) {
   .container {
-    max-width: 40rem;
+    max-width: 95%;
   }
   .header-title {
     font-size: 4rem;
