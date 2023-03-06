@@ -386,7 +386,7 @@ body {
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 994px) {
   html {
     font-style: 12px;
   }
