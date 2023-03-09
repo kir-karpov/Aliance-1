@@ -168,8 +168,8 @@ body {
 }
 .seporator {
   background: #5c8ee6;
-  width: 9.375rem;
-  height: 0.125rem;
+  width: 150px;
+  height: 2px;
 }
 .header-content {
   padding-top: 150px;
@@ -401,7 +401,7 @@ body {
     padding: 2rem;
   }
   .logo-svg {
-    max-width: 6rem;
+    max-width: 9.375rem;
   }
   .header-nav {
     padding-left: 2rem;
@@ -427,8 +427,8 @@ body {
     height: 5.8rem;
   }
   .navbar-button {
-    padding-left: 2rem;
-    padding-right: 2rem;
+    padding-left: 32px;
+    padding-right: 32px;
   }
   .slider-buttons {
     display: flex;
@@ -447,6 +447,13 @@ body {
   .header-nav {
     display: none;
   }
+  .navbar-button {
+  }
+  .header {
+    padding-top: 7.875rem;
+  }
+  .header-title {
+  }
   .header-logo {
     flex-grow: 1;
     justify-content: center;
@@ -457,7 +464,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 1.8rem;
+    padding: 2.2rem;
     border-right: 1px solid rgba(235, 235, 240, 0.2);
   }
   .navbar-light .mobile-menu-line {
@@ -589,15 +596,45 @@ body {
 
 @media (max-width: 576px) {
   .container {
-    max-width: 90%;
+    max-width: 92%;
+    margin-top: -20px;
   }
   .header-title {
-    font-size: 2rem;
+    font-size: 4rem;
+  }
+  .button2 {
+    display: flex;
+    align-items: center;
   }
   .header-content {
     padding-top: 2rem;
   }
   .card {
     flex-basis: 100%;
+  }
+  .header-text {
+    font-size: 1.2rem;
+    margin-bottom: 1.8rem;
+    margin-left: -0.9rem;
+    margin-top: -0.1rem;
+    height: 100%;
+  }
+  .button2-text {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    margin-left: 31px;
+    margin-top: 6px;
+  }
+  .header-title {
+    margin-left: -0.5rem;
+    margin-top: 1.3rem;
+  }
+  .section-title {
+    font-size: 3.3rem;
+  }
+  .steps-num {
+    font-size: 4rem;
+    line-height: 110%;
   }
 }
