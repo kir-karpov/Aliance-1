@@ -640,8 +640,8 @@ body {
 .input-group-wrapper {
   display: flex;
   gap: 1.875rem;
-  margin-bottom: 1.875rem;
-  margin-left: -10.6875rem;
+  margin-bottom: 1.8125rem;
+  margin-left: 0.0625rem;
 }
 .input-group {
   position: relative;
@@ -691,8 +691,8 @@ body {
 }
 .cta-form-footer {
   display: flex;
-
-  gap: 30px;
+  padding-right: 10.125rem;
+  gap: 1.875rem;
   align-items: center;
 }
 .alert {
