@@ -11,6 +11,9 @@ html {
   font-weight: normal;
   font-style: normal;
 }
+.swd{
+  margin-left: 9px;"
+}
 body {
   margin: 0px;
   font-family: "Noto Sans", sans-serif;
@@ -464,7 +467,7 @@ body {
 }
 .founder-photo {
   position: absolute;
-  left: 0.25rem;
+  left: 0px
   width: 44%;
   height: 100%;
   object-fit: cover;
