@@ -130,6 +130,7 @@ document.addEventListener("DOMContentLoaded", () => {
     console.log("target", target.classList[1] == "is-open");
     if (target.classList[1] == "is-open") {
       modal.classList.remove("is-open");
+      document.body.style.overflow = "";
     }
   });
 });
