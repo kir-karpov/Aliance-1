@@ -108,8 +108,6 @@ const modalToggle = document.querySelectorAll("[data-toggle=modal]");
 const modalClose = document.querySelector(".modal-close");
 console.log(modalToggle);
 
-const div = document.querySelector(".modal");
-
 modalToggle.forEach((element) => {
   element.addEventListener("click", (event) => {
     event.preventDefault();
@@ -124,4 +122,13 @@ modalClose.addEventListener("click", (event) => {
   event.preventDefault();
   document.body.style.overflow = "";
   modal.classList.remove("is-open");
+});
+document.addEventListener("DOMContentLoaded", () => {
+  window.addEventListener("click", (e) => {
+    const target = e.target;
+    console.log("target", target.classList[1] == "is-open");
+    if (target.classList[1] == "is-open") {
+      modal.classList.remove("is-open");
+    }
+  });
 });
