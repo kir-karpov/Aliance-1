@@ -123,6 +123,7 @@ modalClose.addEventListener("click", (event) => {
   document.body.style.overflow = "";
   modal.classList.remove("is-open");
 });
+
 document.addEventListener("DOMContentLoaded", () => {
   window.addEventListener("click", (e) => {
     const target = e.target;
