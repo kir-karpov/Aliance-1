@@ -643,6 +643,10 @@ body {
   margin-bottom: 29px;
   margin-left: 1px;
 }
+.input-group-vertical {
+  display: flex;
+  flex-direction: column;
+}
 .input-group {
   position: relative;
   height: 66px;
@@ -657,7 +661,7 @@ body {
   left: 0;
   padding: 20px 30px;
   border: 1px solid #e4e4eb;
-  background-color: transparent;
+  background-color: inherit;
 }
 .input-group-label {
   position: absolute;
@@ -837,6 +841,81 @@ body {
 .footer-bottom {
   display: flex;
 }
+.modal {
+  opacity: 0;
+  visibility: hidden;
+  transform: translateX(-100%);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: none;
+  background-color: rgba(41, 45, 51, 0.5);
+  z-index: 10;
+  display: flex;
+  transition: opacity 0.2s;
+}
+.modal.is-open {
+  transform: translateX(0);
+  visibility: visible;
+  opacity: 1;
+}
+.modal.is-open .modal-dialog {
+  transform: translateY(0);
+}
+.modal-dialog {
+  background-color: #fff;
+  margin: auto;
+  max-width: 460px;
+  padding: 40px 50px;
+  position: relative;
+  transform: translateY(-50%);
+  transition: transform 0.3s;
+}
+.modal-close {
+  display: block;
+  position: absolute;
+  top: 4px;
+  right: 4px;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #ebebf0;
+}
+.modal-title {
+  margin-top: 0;
+  font-family: "Bebas Neue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  max-width: 350px;
+  line-height: 120%;
+  color: #292d33;
+  margin-bottom: 20px;
+}
+.modal-text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 160%;
+  color: #828a99;
+  margin-bottom: 30px;
+}
+.modal-form-footer {
+  margin-top: 30px;
+}
+.modal-input-group {
+  background-color: #fff;
+}
+.modal-form-button {
+  display: block;
+  width: 100%;
+  margin-bottom: 24px;
+}
+
 @media (max-width: 1700px) {
   html {
     font-size: 14px;
