@@ -625,6 +625,14 @@ body {
   max-width: 720px;
   width: 50%;
 }
+.section-cta-about {
+  margin-top: none;
+  position: relative;
+  padding-top: 140px;
+
+  padding-bottom: 85px;
+  padding-top: 64px;
+}
 .section-cta {
   position: relative;
   padding-top: 140px;
@@ -943,7 +951,8 @@ body {
   background: #f0f2f5;
   max-width: 120rem;
   max-height: 16.875rem;
-  padding-bottom: 270px;
+  padding-bottom: 16.875rem;
+  margin-bottom: 9.375rem;
 }
 .section-title-about {
   font-family: BebasNeueBook;
