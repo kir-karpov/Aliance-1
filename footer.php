@@ -11,6 +11,8 @@
                  class="input" 
                  name="username"
                  placeholder=" "
+                 required
+                 maxlength="100"
                  />
                 <label 
                 class="input-group-label" 
@@ -23,6 +25,8 @@
                  name="userphone"
                  class="input" 
                  placeholder=" "
+                 required
+                 maxlength="30"
                  />
                 <label class="input-group-label" 
                 for="user-phone">Номер телефона
