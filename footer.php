@@ -3,7 +3,7 @@
         <picture alt="call to action" class="cta-image">
   <source type="image/webp" srcset="img/cta.webp">
   <source type="image/jpeg" srcset="img/cta.png">
-  <img src="img/cta.png" alt="cta">
+  <img src="img/cta.png" alt="cta" style="width:100%;">
 </picture>
         
         <div class="cta-from-wrapper container">
