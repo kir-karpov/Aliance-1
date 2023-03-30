@@ -9,6 +9,7 @@ html {
   font-family: "BebasNeueBook";
   src: url("../fonts/BebasNeueBook.woff") format("woff");
   font-weight: normal;
+  font-display: swap;
   font-style: normal;
 }
 .swd {
@@ -614,9 +615,6 @@ body {
 }
 .bg-grey {
   background: #f0f2f5;
-}
-
-.seporator-about {
 }
 .cta-image {
   position: absolute;
