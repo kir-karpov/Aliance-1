@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
     <head>
       <meta charset="UTF-8" />
       <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -15,9 +14,8 @@
       <link rel="stylesheet" href="css/style.css" />
       <title> <?= $page_title?> - Aliance Production</title>
     </head>
-  </head>
-  <body>
-    <div class="mobile-menu">
+    <body>
+     <div class="mobile-menu">
       <ul class="mobile-menu-nav">
         <li class="mobile-menu-nav-item">
           <a href="#" class="mobile-menu-link">Контрактное производство</a>
@@ -143,9 +141,4 @@
         <span class="button-text">Получить консультацию</span>
       </button>
     </nav>
-    <section class="single-block">
-      <div class="section-title-about"><?=$page_title?></div>
-
-      <div class="seporator seporator-about"></div>
-    </section>
-    <!-- /.navbar -->
+  </div>

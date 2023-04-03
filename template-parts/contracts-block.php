@@ -25,7 +25,7 @@
             <picture 
   <source type="image/webp" srcset="img/autohim.webp">
   <source type="image/webp" srcset="img/autohim.webp">
-  <img src="img/autohim.png" alt="Бытовая химия" class="card-image" style="width:100%;">
+  <img src="img/autohim.png" alt="Бытовая химия" class="card-image" style="width:70%;">
 </picture>
           </a>
           <a href="#" class="card">
@@ -79,7 +79,7 @@
              <picture 
   <source type="image/webp" srcset="img/autohim.webp">
   <source type="image/webp" srcset="img/autohim.webp">
-  <img src="img/autohim.png" alt="Бытовая химия" class="card-image" style="width:100%;" />
+  <img src="img/autohim.png" alt="Бытовая химия" class="card-image" style="width:70%;" />
 </picture>
           </a>
         </div>

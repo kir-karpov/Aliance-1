@@ -107,6 +107,7 @@
         </li>
         <li class="header-nav-item">
           <a href="#" class="header-nav-link">Контрактное производство</a>
+          
         </li>
         <li class="header-nav-item">
           <a href="#" class="header-nav-link">Собственные торговые марки</a>
@@ -519,7 +520,7 @@
   margin-top: 23px;
 ">Весь блог</a>
   <div class="blog-buttons primary-buttons-wrapper"style="
-  margin-right: -9px;
+  margin-right: 3px;
 ">
     <div class="blog-button-prev primary-button-prev">
       <svg width="36" height="24">
