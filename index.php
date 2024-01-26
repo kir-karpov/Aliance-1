@@ -313,12 +313,16 @@
       class="section founder"
       style="margin-top: 205px; margin-bottom: 0px"
     >
+<<<<<<< HEAD
 
     <picture alt="founder" class="founder-photo">
   <source type="image/webp" srcset="img/founder.webp">
   <source type="image/jpeg" srcset="img/founder.jpg">
   <img src="img/founder.jpg" alt="founder" style="width:100%;">
 </picture>
+=======
+      <img src="img/founder.jpg" alt="founder" class="founder-photo" />
+>>>>>>> parent of 26a7c36 (fix)
       <div class="container">
         <div class="founder-content-wrapper">
           <div class="founder-content">
@@ -408,66 +412,66 @@
           </div>
           <div class="clients-logo-list">
             <a href="#" class="clients-logo-item">
-                 <picture class="clients-logo" >
-  <source type="image/webp" srcset="img/client.webp" >
+                 <picture class="clients-logo">
+  <source type="image/webp" srcset="img/client.webp">
   <source type="image/jpeg" srcset="img/client.png">
-  <img src="img/client.png" alt="client" style="width:100%;">
+  <img src="img/client.png" alt="client">
 </picture>
             </a href="#">
             <a href="#" class="clients-logo-item">
                  <picture class="clients-logo">
   <source type="image/webp" srcset="img/client.webp">
   <source type="image/jpeg" srcset="img/client.png">
-  <img src="img/client.png" alt="client"style="width:100%;">
+  <img src="img/client.png" alt="client">
 </picture>
             </a href="#">
             <a href="#" class="clients-logo-item">
                  <picture class="clients-logo">
   <source type="image/webp" srcset="img/client.webp">
   <source type="image/jpeg" srcset="img/client.png">
-  <img src="img/client.png" alt="client"style="width:100%;">
+  <img src="img/client.png" alt="client">
 </picture>
             </a href="#">
             <a href="#" class="clients-logo-item">
                  <picture class="clients-logo">
   <source type="image/webp" srcset="img/client.webp">
   <source type="image/jpeg" srcset="img/client.png">
-  <img src="img/client.png" alt="client"style="width:100%;">
+  <img src="img/client.png" alt="client">
 </picture>
             </a href="#">
             <a href="#" class="clients-logo-item">
                  <picture class="clients-logo">
   <source type="image/webp" srcset="img/client.webp">
   <source type="image/jpeg" srcset="img/client.png">
-  <img src="img/client.png" alt="client"style="width:100%;">
+  <img src="img/client.png" alt="client">
 </picture>
             </a href="#">
             <a href="#" class="clients-logo-item">
                  <picture class="clients-logo">
   <source type="image/webp" srcset="img/client.webp">
   <source type="image/jpeg" srcset="img/client.png">
-  <img src="img/client.png" alt="client"style="width:100%;">
+  <img src="img/client.png" alt="client">
 </picture>
             </a href="#">
             <a href="#" class="clients-logo-item">
                  <picture class="clients-logo">
   <source type="image/webp" srcset="img/client.webp">
   <source type="image/jpeg" srcset="img/client.png">
-  <img src="img/client.png" alt="client"style="width:100%;">
+  <img src="img/client.png" alt="client">
 </picture>
             </a href="#">
             <a href="#" class="clients-logo-item">
                  <picture class="clients-logo">
   <source type="image/webp" srcset="img/client.webp">
   <source type="image/jpeg" srcset="img/client.png">
-  <img src="img/client.png" alt="client"style="width:100%;">
+  <img src="img/client.png" alt="client">
 </picture>
             </a href="#">
             <a href="#" class="clients-logo-item">
                  <picture class="clients-logo">
   <source type="image/webp" srcset="img/client.webp">
   <source type="image/jpeg" srcset="img/client.png">
-  <img src="img/client.png" alt="client"style="width:100%;">
+  <img src="img/client.png" alt="client">
 </picture>
             </a href="#">
           </div>
